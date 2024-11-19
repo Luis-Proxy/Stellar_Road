@@ -1,0 +1,74 @@
+html {
+    height: 100%;
+    overflow: auto;
+    background: radial-gradient(ellipse, #fff 0%,white 100%);
+    
+}
+
+
+nav{
+    font-family: Lato;
+    margin-top: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+
+nav a{
+    color: black;
+    padding: 0px 50px 10px 0;
+    text-decoration: none;
+    position: relative;
+    
+
+   
+}
+
+nav a::after{
+    content: " " ;
+    width: 0%;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    bottom: 0 ;
+    left: 0;
+    transition: 0.5s ease-in-out;
+    
+}
+
+nav a:hover::after {
+    width: 100%;
+
+
+}
+
+.contato{
+    position: absolute;
+    font-family: Lato;
+    font-weight: 300 ;
+    text-align: center;
+    top: 20%;
+    font-size:50px ;
+    left: 0;
+    right: 0;
+
+}
+
+.telefone{
+    font-size: 30px;
+    font-family: Lato;
+    top: 55%;
+    left: 0;
+    right: 0;
+}
+
+.cont {
+    align-items: center;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.cont p {
+    font-size: 30px;
+    margin: 20px;
+}
+
