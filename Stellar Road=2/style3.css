@@ -41,6 +41,16 @@ nav a:hover::after {
 
 }
 
+/*Sollar Week*/
+
+img{
+    width: 800px;
+    height: 500px;
+}
+
+
+
+/*Pagina de Contato*/
 .contato{
     position: absolute;
     font-family: Lato;
