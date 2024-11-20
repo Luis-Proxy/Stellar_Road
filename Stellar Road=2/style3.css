@@ -1,9 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato ;
+    font-weight: 300;
+}
+
+
+
 html {
     height: 100%;
     overflow: auto;
     background: radial-gradient(ellipse, #fff 0%,white 100%);
     
 }
+
+
 
 
 nav{
@@ -68,10 +80,78 @@ a {
 
 /*Sollar Week*/
 
+
+
+
 img{
-    width: 800px;
-    height: 500px;
+    max-width: 320px;
+    float: left;
+    border: 3px ;
+    border-radius:10px ;
+    margin-right: 15px;
 }
+
+h2{
+    text-align: center;
+    color: #38495a;
+}
+
+.wrapper1{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.wrapper2{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.wrapper3{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.wrapper4{
+    margin: 200px auto;
+    width: 70%;
+}
+
+.wrapper4{
+    margin: 100px auto;
+    width: 70%;
+}
+
+.wrapper5{
+    margin: 200px auto;
+    width: 70%;
+}
+
+.wrapper6{
+    margin: 200px auto;
+    width: 70%;
+}
+
+.wrapper7{
+    margin: 200px auto;
+    width: 70%;
+}
+
+.wrapper8{
+    margin: 200px auto;
+    width: 70%;
+}
+
+.wrapper9{
+    margin: 200px auto;
+    width: 70%;
+}
+
+.wrapper10{
+    margin: 200px auto;
+    width: 70%;
+}
+
+
 
 
 
