@@ -80,6 +80,18 @@ a {
 
 /*Sollar Week*/
 
+.header-sollar {
+    padding: 8%;
+    background-color: #38495a;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    font-family: Lato;
+    font-weight:300 ;
+    margin-top: 30px;
+    border-radius: 20px;
+}
 
 
 
@@ -94,7 +106,10 @@ img{
 h2{
     text-align: center;
     color: #38495a;
+    font-size: 40px;
 }
+
+
 
 .wrapper1{
     margin: 150px auto;
@@ -156,34 +171,67 @@ h2{
 
 
 /*Pagina de Contato*/
-.contato{
-    position: absolute;
+
+.contatos {
+    padding: 8%;
+    background-color: #38495a;
+    color: white;
+    font-size: 20px;
+    text-align: start;
+    display: flex;
     font-family: Lato;
-    font-weight: 300 ;
+    font-weight:300 ;
+    margin-top: 30px;
+}
+
+.contatos h1 {
+    background-color: transparent;
+    
+}
+
+.falar{
+    display: flexbox;
     text-align: center;
-    top: 20%;
-    font-size:50px ;
-    left: 0;
-    right: 0;
 
 }
 
-.telefone{
-    font-size: 30px;
-    font-family: Lato;
-    top: 55%;
-    left: 0;
-    right: 0;
+.falar h2 {
+    color:#38495a;
+
 }
 
-.cont {
+.falar p {
+    color: gray;
+    font-size: 15px;
+}
+
+.falar {
     align-items: center;
-    margin: 20px;
-    margin-left: 50px;
+    display: flex;
+    margin: 30px;
 }
 
-.cont p {
-    font-size: 30px;
-    margin: 20px;
+.email {
+    width: 200px;
+    margin: 30px;
 }
 
+.telefone {
+    width: 200px;
+    margin: 30px;
+}
+
+.chat {
+    width: 200px;
+    margin: 30px;
+}
+
+.falar p {
+    margin-top: 15px;
+
+}
+
+.bold {
+    font-weight: bolder;
+    color: black;
+}
