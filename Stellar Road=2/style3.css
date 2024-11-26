@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Lato ;
+    font-family: Lato;
     font-weight: 300;
+    
 }
 
 
@@ -11,7 +12,7 @@
 html {
     height: 100%;
     overflow: auto;
-    background: radial-gradient(ellipse, #fff 0%,white 100%);
+    background: radial-gradient(ellipse, #7a90a9 0%,#545c85);
     
 }
 
@@ -80,45 +81,79 @@ a {
 
 /*Sollar Week*/
 
-.header-sollar {
-    padding: 8%;
-    background-color: #38495a;
-    color: white;
-    font-size: 20px;
+#title {
+    top: 25%;
+    left: 0;
+    right: 0;
+    color: #fff;
     text-align: center;
-    display: flex;
     font-family: Lato;
-    font-weight:300 ;
-    margin-top: 30px;
-    border-radius: 20px;
+    font-weight: 300;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-top: 120px;
+    padding-left: 10px;
+    
+    
 }
 
 
 
+#title span {
+    background: -webkit-linear-gradient(#090a0f ,#446083);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+
 img{
-    max-width: 320px;
+    width: 320px;
+    height: auto;
     float: left;
     border: 3px ;
     border-radius:10px ;
     margin-right: 15px;
+    margin-top: 90px;
+    margin-inline-start: 20px;
 }
 
 h2{
     text-align: center;
-    color: #38495a;
-    font-size: 40px;
+    color:black;
+    font-size: 50px;
+    margin-bottom: 20px;
+   
 }
 
+p{
+    font-size: 25px;
+    margin-inline-start: 20px;
+    margin-inline-end: 10px;
+}
+
+
+.text-box{
+   background: white;
+   border-radius: 10px;
+   height: 430px;
+   width: 100%;
+}
 
 
 .wrapper1{
     margin: 150px auto;
     width: 70%;
+    
+    
+    
 }
 
 .wrapper2{
-    margin: 150px auto;
+    margin:  auto;
     width: 70%;
+   
+    
 }
 
 .wrapper3{
@@ -196,12 +231,12 @@ h2{
 }
 
 .falar h2 {
-    color:#38495a;
+    color:#1e2e3d;
 
 }
 
 .falar p {
-    color: gray;
+    color: white;
     font-size: 15px;
 }
 
@@ -235,3 +270,7 @@ h2{
     font-weight: bolder;
     color: black;
 }
+
+
+
+
