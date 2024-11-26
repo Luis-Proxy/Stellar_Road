@@ -59,7 +59,7 @@ footer {
 	color: #fff;
 	padding: 20px;
 	text-align: center;
-	margin-top: 50px;
+    margin-bottom: 0px;
 }
 
 ul {
@@ -130,6 +130,7 @@ p{
     font-size: 25px;
     margin-inline-start: 20px;
     margin-inline-end: 10px;
+    text-align: justify;
 }
 
 
@@ -201,6 +202,12 @@ p{
     width: 70%;
 }
 
+.wrapper11{
+    margin: 200px auto;
+    width: 70%;
+}
+
+
 
 
 
@@ -270,7 +277,6 @@ p{
     font-weight: bolder;
     color: black;
 }
-
 
 
 
