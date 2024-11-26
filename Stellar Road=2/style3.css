@@ -22,7 +22,7 @@ html {
 nav{
     font-family: Lato;
     margin-top: 50px;
-    font-weight: 300;
+    font-weight: 300px;
     text-align: center;
 }
 
@@ -46,10 +46,11 @@ nav a::after{
     left: 0;
     transition: 0.5s ease-in-out;
     
+    
 }
 
 nav a:hover::after {
-    width: 100%;
+    width: 70%;
 
 
 }
@@ -135,7 +136,7 @@ p{
 
 
 .text-box{
-   background: white;
+   background: rgb(182, 203, 212);
    border-radius: 10px;
    height: 430px;
    width: 100%;
