@@ -1,6 +1,6 @@
 function createStars() {
     const container = document.querySelector("body");
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 10000; i++) {
       // Increase the number of stars to 1000
       const star = document.createElement("div");
       star.className = "star";
