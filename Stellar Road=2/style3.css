@@ -234,7 +234,7 @@ p{
 }
 
 .falar{
-    display: flexbox;
+    display: flex;
     text-align: center;
 
 }
@@ -253,7 +253,7 @@ p{
     align-items: center;
     display: flex;
     margin: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
 }
 
 .email {
