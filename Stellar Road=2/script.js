@@ -1,7 +1,9 @@
+/*JavaScript*/
+
 function createStars() {
     const container = document.querySelector("body");
-    for (let i = 0; i < 10000; i++) {
-      // Increase the number of stars to 1000
+    for (let i = 0; i < 5000; i++) {
+      
       const star = document.createElement("div");
       star.className = "star";
       star.style.width = ".1px";

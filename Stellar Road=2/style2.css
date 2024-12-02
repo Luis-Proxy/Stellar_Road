@@ -1,3 +1,4 @@
+/*Corpo*/
 body {
     margin: 0;
     height: 100vh;
@@ -9,7 +10,7 @@ body {
 }
 
 
-
+/*Navegador*/
 nav{
     font-family: Lato;
     margin-top: 50px;
@@ -71,6 +72,9 @@ img{
     box-shadow: 0 0 3em rgb(255, 128, 0);
     animation: orbit 50s linear infinite;
 }
+
+/*Planetas*/
+
 .mercury,
 .venus,
 .earth,
@@ -159,6 +163,8 @@ img{
     height: 85em; 
     animation: orbit 18s linear infinite;
 }
+
+/*Planetas Antes*/
 
 .mercury::before,
 .venus::before,
@@ -263,6 +269,8 @@ img{
     border-radius: 50%;
     z-index: -1;
 }
+
+/*Animação*/
 
 @keyframes orbit {
     to {

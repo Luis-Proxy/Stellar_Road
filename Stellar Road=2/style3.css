@@ -1,3 +1,6 @@
+
+/*Corpo*/
+
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +20,7 @@ html {
 }
 
 
-
+/*Navegador*/
 
 nav{
     font-family: Lato;
@@ -55,6 +58,8 @@ nav a:hover::after {
 
 }
 
+/*Rodape*/
+
 footer {
 	background-color:#38495a ;
 	color: #fff;
@@ -81,7 +86,7 @@ a {
 }
 
 
-/*Sollar Week*/
+/*Titulo*/
 
 #title {
     top: 25%;
@@ -108,6 +113,8 @@ a {
     
 }
 
+
+/*Pagina Week*/
 
 img{
     width: 320px;
@@ -282,77 +289,6 @@ p{
 }
 
 
-/* Sobre */
-
-#box1 {
-    display: flex;
-    
-    
-}
-
-#box1-img{
-    width: 500px;
-    height: 400px;
-    float: left;
-    border: 3px ;
-    border-radius:10px ;
-    margin-inline-start: 250px;
-    
-    
-
-}
-
-#box1-text{
-    margin: 155px;
-    width: 70%; 
-    margin-inline-start: -15px;
-   
-    
-}
-
-#box-text1 ,h1{
-    text-align: center;
-    margin-top: -50px;
-
-    
-    
-    
-}
 
 
-#box2 {
-    display: flex;
-    margin-top: -10px;
-    
-    
-}
 
-#box2-img{
-    
-    float: right;
-    border: 3px ;
-    border-radius:10px ;
-    margin-inline-start: 250px;
-    margin-top:-120px;
-    
-    
-
-}
-
-#box2-text{
-    margin: 200px;
-    width: 70%; 
-    margin-inline-start: -15px;
-    margin-top: -10px;
-   
-    
-}
-
-#box-text2 {
-    text-align: center;
-   
-
-    
-    
-    
-}

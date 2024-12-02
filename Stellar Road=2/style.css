@@ -1,3 +1,6 @@
+
+/*Corpo*/
+
 html {
     height: 100%;
     overflow: hidden;
@@ -6,6 +9,8 @@ html {
     padding: 0;
     box-sizing: border-box;
 }
+
+/*Navegador*/
 
 nav{
     font-family: Lato;
@@ -43,7 +48,7 @@ nav a:hover::after {
 }
 
 
-
+/*Titulo*/
 
 #title {
     position: absolute;
@@ -71,7 +76,7 @@ nav a:hover::after {
 }
 
 
-
+/*Estrelas*/
 
 #stars {
     width: 1px;
@@ -256,6 +261,8 @@ nav a:hover::after {
     659px 1860px #fff, 388px 1412px #fff, 1212px 458px #fff, 755px 1468px #fff,
     696px 1654px #fff, 1144px 60px #fff;
 }
+
+/*Estrelas depois*/
 
 #stars:after {
     content: '';
@@ -443,6 +450,8 @@ nav a:hover::after {
     696px 1654px #fff, 1144px 60px #fff;
 }
 
+/*Estrelas*/
+
 #stars2 {
     width: 2px;
     height: 2px;
@@ -500,6 +509,8 @@ nav a:hover::after {
     156px 81px #fff, 1915px 502px #fff, 1076px 1846px #fff, 152px 1669px #fff,
     986px 1529px #fff, 1667px 1137px #fff;
 }
+
+/*Estrelas depois*/
 
 #stars2:after {
     content: '';
@@ -561,6 +572,8 @@ nav a:hover::after {
     986px 1529px #fff, 1667px 1137px #fff;
 }
 
+/*Estrelas*/
+
 #stars3 {
     width: 3px;
     height: 3px;
@@ -593,6 +606,8 @@ nav a:hover::after {
     494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
 }
+
+/*Estrelas depois*/
 
 #stars3:after {
     content: '';
@@ -629,6 +644,7 @@ nav a:hover::after {
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
 }
 
+/*Animação*/
 
 @keyframes animStar {
     from {
